@@ -1,49 +1,65 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>UFC Fansida</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UFC Fansida</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="hero">
+  <div class="overlay">
     <h1>UFC Fansida</h1>
-    <p>Fighters & Events</p>
+    <p>Allt om UFC, fighters och kommande matcher</p>
+  </div>
 </header>
 
 <nav>
-    <a href="#fighters">Fighters</a>
-    <a href="#events">Events</a>
+  <a href="#fighters">Fighters</a>
+  <a href="#events">Kommande Events</a>
 </nav>
 
 <section id="fighters">
-    <h2>Kända Fighters</h2>
+  <h2>Kända UFC Fighters</h2>
 
-    <div class="grid">
-        <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Khabib_Nurmagomedov_2017.jpg">
-            <h3>Khabib Nurmagomedov</h3>
-        </div>
+  <div class="fighters-grid">
 
-        <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Jon_Jones_2017.jpg">
-            <h3>Jon Jones</h3>
-        </div>
+    <div class="fighter-card">
+      <img src="images/conor.jpg" alt="Conor McGregor">
+      <h3>Conor McGregor</h3>
+      <p>En av UFC:s största stjärnor genom tiderna.</p>
     </div>
+
+    <div class="fighter-card">
+      <img src="images/khabib.jpg" alt="Khabib Nurmagomedov">
+      <h3>Khabib Nurmagomedov</h3>
+      <p>Obesegrad mästare känd för sin dominanta grappling.</p>
+    </div>
+
+    <div class="fighter-card">
+      <img src="images/jon.jpg" alt="Jon Jones">
+      <h3>Jon Jones</h3>
+      <p>Många anser att Jon Jones är den bästa MMA-fightern någonsin.</p>
+    </div>
+
+  </div>
 </section>
 
 <section id="events">
-    <h2>Kommande Events</h2>
-    <div class="event">
-        <p>Kolla vilka matcher som kommer och datum:</p>
-        <a href="https://www.ufc.com/events" target="_blank">Se UFC Events</a>
-    </div>
+  <h2>Kommande UFC Events</h2>
+
+  <div class="event-box">
+    <p>Klicka här för att se kommande matcher, fight cards och datum.</p>
+
+    <a class="ufc-button" href="https://www.ufc.com/events" target="_blank">
+      Se UFC Events
+    </a>
+  </div>
 </section>
 
 <footer>
-    <p>Webbutveckling 1</p>
+  <p>Webbutveckling 1 - UFC Projekt</p>
 </footer>
 
 </body>
