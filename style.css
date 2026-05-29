@@ -32,7 +32,6 @@ section {
 .grid {
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .card {
@@ -57,6 +56,12 @@ section {
     background: #1a1a1a;
     padding: 20px;
     border-radius: 10px;
+}
+
+.event a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 footer {
